@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,300');
+
+* {
+	font-family: "Open Sans", sans-serif; 
+}
+
+body {  
+    color:#fff;
+    background-color: #000;
+}       
+
+#duo_iframe {
+	width: 100%;
+	min-width: 304px;
+	max-width: 620px;
+	height: 330px;
+}
+
+.block {
+    background-color:rgba(0,0,0,0.8);
+    padding:20px;
+}
+
+a {
+    color: white;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+button {
+    background-color: #E00122;
+}
+
+button:hover {
+    background-color: #EC0326;
+}
+
+.warningError{
+	color:red;
+}
+
+.alert-warning a{
+    color: blue;
+}
+
+.clear{
+	clear:both; 
+	padding-top: 10px;
+}
+
+.altWrapping{
+	word-wrap: break-word;
+}
+
+.alert-area a{
+	color: #e00122;
+	text-decoration: none;
+}
+
+.alert-area a{
+	color: #940116;
+	text-decoration: underline;
+}
+
+/*place holder ie stuff*/
+.placeholder
+{
+  color: #aaa;
+}
+
+input[type=text], input[type=password], textarea {
+	-webkit-transition: all 0.30s ease-in-out;
+	-moz-transition: all 0.30s ease-in-out;
+	-ms-transition: all 0.30s ease-in-out;
+	-o-transition: all 0.30s ease-in-out;
+	outline: none;
+	padding: 3px 0px 3px 15px;
+	margin: 5px 1px 3px 0px;
+	border: 2px solid #DDDDDD;
+}
+
+input[type=text]:focus, input[type=password]:focus, textarea:focus {
+	box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+	padding: 3px 0px 3px 15px;
+	margin: 5px 1px 3px 0px;
+	border: 2px solid rgba(81, 203, 238, 1);
+}
