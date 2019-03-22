@@ -34,3 +34,5 @@
 exploitExe
 
 \.DS_Store
+
+\.vscode/
